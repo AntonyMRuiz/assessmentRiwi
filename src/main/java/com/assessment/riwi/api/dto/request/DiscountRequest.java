@@ -17,7 +17,7 @@ import lombok.Setter;
 @Builder
 @AllArgsConstructor
 @NoArgsConstructor
-public class CouponRequest {
+public class DiscountRequest {
     @NotNull(message = "Status is mandatory")
     private StatusCoupon status;
     

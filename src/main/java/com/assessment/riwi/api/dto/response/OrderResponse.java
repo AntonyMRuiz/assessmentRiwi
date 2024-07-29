@@ -1,9 +1,5 @@
 package com.assessment.riwi.api.dto.response;
 
-import java.time.LocalDate;
-
-import com.assessment.riwi.util.enums.StatusCoupon;
-
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Getter;
@@ -15,9 +11,13 @@ import lombok.Setter;
 @Builder
 @AllArgsConstructor
 @NoArgsConstructor
-public class CouponResponse {
+
+public class OrderResponse {
     private Long id;
-    private StatusCoupon status;
-    private LocalDate expirationDate;
-    
+    private Long userId;
+    private Long productId;
+    private Long couponId;
+    private Double totalPrice;
+    private int quantityProducts; 
 }
+    

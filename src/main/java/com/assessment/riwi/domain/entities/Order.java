@@ -3,8 +3,6 @@ package com.assessment.riwi.domain.entities;
 import jakarta.persistence.*;
 import lombok.*;
 
-import java.util.List;
-
 @Entity(name = "orders")
 @Getter
 @Setter

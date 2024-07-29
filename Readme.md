@@ -25,3 +25,12 @@ Summarize in max the changes that were made, per recommendation max be 10 words.
 Example:
 
 "US-000-000/Create user/Feat: Add the create in the user's service and controller."
+
+# Clickup
+https://app.clickup.com/9013368326/v/l/6-901304810291-1
+
+# Team Members
+### Daniel Sánchez Morales
+### Antonhy Martínez
+### Harlinson Vásquez
+### Juan Esteban Patiño

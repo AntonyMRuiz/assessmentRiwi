@@ -26,6 +26,4 @@ public class ProductServiceImpl implements IProductService {
         return this.productRepository.findAll(pagination)
             .map(this.productMapper::toResponse);
     }
-
-
 }

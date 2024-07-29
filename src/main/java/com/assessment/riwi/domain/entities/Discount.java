@@ -27,7 +27,7 @@ public class Discount {
     @Enumerated(EnumType.STRING)
     private StatusCoupon status;
 
-    @OneToOne(fetch = FetchType.LAZY)
+    @OneToOne(fetch = FetchType.EAGER)
     @JoinColumn(name = "order_id", referencedColumnName = "id")
     private Order order;
 }

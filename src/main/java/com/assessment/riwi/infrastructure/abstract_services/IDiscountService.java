@@ -2,10 +2,7 @@ package com.assessment.riwi.infrastructure.abstract_services;
 
 import com.assessment.riwi.api.dtos.requests.DiscountRequest;
 import com.assessment.riwi.api.dtos.responses.DiscountResponse;
-import com.assessment.riwi.infrastructure.abstract_services.generics.CreateService;
-import com.assessment.riwi.infrastructure.abstract_services.generics.DeleteByIdService;
-import com.assessment.riwi.infrastructure.abstract_services.generics.ReadAllService;
-import com.assessment.riwi.infrastructure.abstract_services.generics.UpdateByIdService;
+import com.assessment.riwi.infrastructure.abstract_services.generics.*;
 
 public interface IDiscountService
         extends

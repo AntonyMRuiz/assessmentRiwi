@@ -8,9 +8,10 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("/orders")
+@RequestMapping("/products")
 @AllArgsConstructor
 public class ProductControllerImpl  implements IProductController {
+
     @Override
     public ResponseEntity<ProductResponse> create(ProductResponse request) {
         return null;

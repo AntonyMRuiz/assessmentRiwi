@@ -29,8 +29,13 @@ Example:
 # Clickup
 https://app.clickup.com/9013368326/v/l/6-901304810291-1
 
+![TABLERO FINALIZADO](https://i.postimg.cc/L4fKhL0R/Captura-de-pantalla-2024-07-29-142553.png)
+
 # Team Members
-### Daniel Sánchez Morales
-### Antonhy Martínez
-### Harlinson Vásquez
-### Juan Esteban Patiño
+### Daniel Sánchez Morales - Developer
+### Antonhy Martínez - Leader
+### Harlinson Vásquez - Developer
+### Juan Esteban Patiño - Developer
+
+# UML Diagram
+![UML](https://i.postimg.cc/MGx88TYx/Captura-de-pantalla-2024-07-29-140824.png)

@@ -3,6 +3,7 @@ package com.assessment.riwi.infrastructure.services;
 import com.assessment.riwi.api.dtos.requests.DiscountRequest;
 import com.assessment.riwi.api.dtos.responses.DiscountResponse;
 import com.assessment.riwi.domain.repositories.DiscountRepository;
+import com.assessment.riwi.domain.repositories.OrderRepository;
 import com.assessment.riwi.infrastructure.abstract_services.IDiscountService;
 import com.assessment.riwi.infrastructure.mappers.DiscountMapper;
 import lombok.AllArgsConstructor;
@@ -16,6 +17,9 @@ public class DiscountServiceImpl implements IDiscountService {
 
     @Autowired
     private final DiscountRepository discountRepository;
+
+    @Autowired
+    private final OrderRepository orderRepository;
     
     @Autowired
     private final DiscountMapper discountMapper;
@@ -26,8 +30,9 @@ public class DiscountServiceImpl implements IDiscountService {
     }
 
     @Override
-    public void deleteById(Long aLong) {
-
+    public void deleteById(Long id) {
+        orderRepository.findByDiscountId(id);
+        discountRepository.deleteById(id);
     }
 
     @Override
@@ -39,5 +44,4 @@ public class DiscountServiceImpl implements IDiscountService {
     public DiscountResponse updateById(Long aLong, DiscountRequest request) {
         return null;
     }
-
 }

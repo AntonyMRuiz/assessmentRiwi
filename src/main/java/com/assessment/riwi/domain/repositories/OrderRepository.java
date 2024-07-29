@@ -6,6 +6,5 @@ import org.springframework.data.jpa.repository.JpaRepository;
 import com.assessment.riwi.domain.entities.Order;
 
 public interface OrderRepository extends JpaRepository<Order, Long>{
-
-    
+    Order findByDiscountId(Long id);
 }

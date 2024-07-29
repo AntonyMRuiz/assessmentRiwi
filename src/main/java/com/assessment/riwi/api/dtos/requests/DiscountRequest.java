@@ -1,9 +1,11 @@
-package com.assessment.riwi.api.dto.response;
+package com.assessment.riwi.api.dtos.requests;
 
 import java.time.LocalDate;
 
 import com.assessment.riwi.util.enums.StatusCoupon;
 
+import jakarta.validation.constraints.Future;
+import jakarta.validation.constraints.NotNull;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Getter;
@@ -15,9 +17,13 @@ import lombok.Setter;
 @Builder
 @AllArgsConstructor
 @NoArgsConstructor
-public class DiscountResponse {
-    private Long id;
+public class DiscountRequest {
+    @NotNull(message = "Status is mandatory")
     private StatusCoupon status;
+    
+    @NotNull(message = "Expiration date is mandatory")
+    @Future(message = "Expiration date must be in the future")
     private LocalDate expirationDate;
+
     
 }

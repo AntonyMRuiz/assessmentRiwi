@@ -1,4 +1,4 @@
- package com.assessment.riwi.api.dto.request;
+ package com.assessment.riwi.api.dtos.requests;
 
 import jakarta.validation.constraints.Email;
 import jakarta.validation.constraints.NotBlank;

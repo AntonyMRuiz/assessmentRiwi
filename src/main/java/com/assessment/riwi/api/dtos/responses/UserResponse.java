@@ -1,4 +1,4 @@
-package com.assessment.riwi.api.dto.response;
+package com.assessment.riwi.api.dtos.responses;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

@@ -1,4 +1,4 @@
-package com.assessment.riwi.infrastructure.abstract_services.generic;
+package com.assessment.riwi.infrastructure.abstract_services.generics;
 
 
 import org.springframework.data.domain.Page;

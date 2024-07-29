@@ -2,6 +2,8 @@ package com.assessment.riwi.api.dto.response;
 
 import java.time.LocalDate;
 
+import com.assessment.riwi.util.enums.StatusCoupon;
+
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Getter;

@@ -2,6 +2,8 @@ package com.assessment.riwi.api.dto.request;
 
 import java.time.LocalDate;
 
+import com.assessment.riwi.util.enums.StatusCoupon;
+
 import jakarta.validation.constraints.Future;
 import jakarta.validation.constraints.NotNull;
 import lombok.AllArgsConstructor;

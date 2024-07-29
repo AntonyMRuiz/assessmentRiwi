@@ -1,4 +1,4 @@
-package com.assessment.riwi.api.dto.errors;
+package com.assessment.riwi.api.dtos.errors;
 
 import lombok.*;
 

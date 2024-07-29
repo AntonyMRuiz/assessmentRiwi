@@ -1,7 +1,7 @@
 package com.assessment.riwi.api.error_handler;
 
-import com.assessment.riwi.api.dto.errors.ListResponseErrors;
-import com.assessment.riwi.api.dto.errors.ResponseError;
+import com.assessment.riwi.api.dtos.errors.ListResponseErrors;
+import com.assessment.riwi.api.dtos.errors.ResponseError;
 import com.assessment.riwi.util.exceptions.BadIdException;
 import com.assessment.riwi.util.exceptions.BadRequestException;
 import org.springframework.http.HttpStatus;
